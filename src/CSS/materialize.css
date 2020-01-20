@@ -4271,8 +4271,8 @@ table span.badge {
 }
 
 nav {
-  color: #fff;
-  background-color: #ee6e73;
+  color: rgb(0, 0, 0);
+  background-color: #0000000e;
   width: 100%;
   height: 56px;
   line-height: 56px;
