@@ -1,11 +1,23 @@
-div > img {
-  width: auto;
-  height: auto;
+#headerimg {
+  height: 15vh;
+  width: 100vw;
+  opacity: 0.6;
 }
-div {
-  display: ;
-  width: 40%;
-  height: 40%;
 
-  margin: 0 auto;
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: stretch;
+  background-image: linear-gradient(
+    rgba(255, 255, 255, 0.445),
+    rgba(255, 192, 203, 0.486)
+  );
+}
+
+.text-block {
+  position: absolute;
+  color: black;
 }
