@@ -13,7 +13,7 @@ export default function home() {
       <div id="backgroundimg">
         <div className="flex-container ">
           <div className="text-block">
-            <h6>Astra is the expert in background music</h6>
+            <h2>Astra is the expert in background music</h2>
             <p>
               We seek to recommend the greatest genres in a minimal way with a
               rotating list of genres!

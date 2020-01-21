@@ -5,6 +5,7 @@ import { BrowserRouter as Router, Route, Switch, Link } from "react-router-dom";
 import Home from "./home";
 import Waves from "./waves";
 import altRock from "./alt.rock";
+import socials from "./socials";
 
 const popMenu = () => {
   var x = document.getElementById("myLinks");
@@ -15,7 +16,7 @@ const popMenu = () => {
   }
 };
 
-export default function LongMenu() {
+export default function longMenu() {
   return (
     <Router>
       <div>
@@ -37,6 +38,8 @@ export default function LongMenu() {
             <Link to="/waves">Waves</Link>
 
             <Link to="/alt_rock">Alternative Rock</Link>
+            <Link to="/electronic">Electronic</Link>
+            <Link to="/socials">Socials</Link>
           </div>
 
           <button className="btn-flat" onClick={popMenu}>
@@ -48,6 +51,8 @@ export default function LongMenu() {
 
           <Route exact path="/alt_rock" component={altRock} />
           <Route exact path="/waves" component={Waves} />
+          <Route exact path="/electronic" component={Waves} />
+          <Route exact path="/socials" component={socials} />
         </Switch>
       </div>
     </Router>

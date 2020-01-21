@@ -1,6 +1,5 @@
 import React from "react";
-
-export default function altRock() {
+export default function socials() {
   return (
     <div>
       <link
