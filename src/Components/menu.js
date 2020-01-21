@@ -23,7 +23,7 @@ export default function LongMenu() {
           href="https://fonts.googleapis.com/icon?family=Material+Icons"
           rel="stylesheet"
         />
-        <div className="topnav">
+        <div className="topnav sticky">
           <Link className="active" to="/">
             <img
               src="https://dewey.tailorbrands.com/production/brand_version_mockup_image/556/2564213556_955a5b21-4b25-428d-8627-564d0813c794.png?cb=1579407840%27"
