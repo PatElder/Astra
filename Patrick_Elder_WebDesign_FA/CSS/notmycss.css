@@ -16,6 +16,7 @@
   height: 40vh;
   width: 100vw;
   filter: drop-shadow(0vw 1vw 1vw #dd44bc8f);
+  margin-bottom: 1em;
   /*https://developer.mozilla.org/en-US/docs/Web/CSS/filter-function/drop-shadow */
 }
 

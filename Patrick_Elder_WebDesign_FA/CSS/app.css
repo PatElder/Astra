@@ -1,9 +1,7 @@
 .navcontainer {
   display: flex;
-}
-
-nav {
-  background-color: rgba(0, 0, 0, 0.842);
+  width: 100%;
+  z-index: 1;
 }
 
 .navcontainer > li {
@@ -21,7 +19,11 @@ li > a {
 .stickytop {
   position: fixed;
   top: 0;
+  left: 0;
+  z-index: 9999;
   width: 100%;
+  height: auto;
+  background-color: rgba(0, 0, 0, 0.842);
 }
 
 a > img {
@@ -44,6 +46,19 @@ a > img {
   margin-left: 5%;
 }
 
-.overshadowed {
-  margin-top: 1em;
+footer {
+  position: fixed;
+  bottom: 0;
+  color: whitesmoke;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 2fr;
+  justify-items: center;
+  width: 100%;
+  background-color: #333;
+}
+
+footer > ul {
+  margin-left: 5%;
+  justify-self: flex-end;
 }
