@@ -1,0 +1,49 @@
+.navcontainer {
+  display: flex;
+}
+
+nav {
+  background-color: rgba(0, 0, 0, 0.842);
+}
+
+.navcontainer > li {
+  flex: 1;
+  list-style: none;
+}
+
+li > a {
+  text-decoration: none;
+  color: whitesmoke;
+  align-self: center;
+  z-index: 1;
+}
+
+.stickytop {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+a > img {
+  height: 2em;
+  width: auto;
+  z-index: 1;
+}
+
+.centered-flex-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.centered-flex-container > * {
+  flex: 1;
+  margin-left: 5%;
+}
+
+.overshadowed {
+  margin-top: 1em;
+}
