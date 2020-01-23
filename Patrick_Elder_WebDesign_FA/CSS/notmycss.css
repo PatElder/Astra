@@ -29,6 +29,38 @@ html {
   font-size: 2em;
 }
 
+#backgroundimgar {
+  background-image: url("https://wallpapercave.com/wp/wp4131610.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 40vh;
+  width: 100vw;
+  filter: drop-shadow(0vw 1vw 1vw #2c2c2cd0);
+  margin-bottom: 10%;
+  /*https://developer.mozilla.org/en-US/docs/Web/CSS/filter-function/drop-shadow */
+}
+
+#backgroundimgar p {
+  font-size: 2em;
+  color: white;
+}
+
+#backgroundimgsw {
+  background-image: url("https://steamuserimages-a.akamaihd.net/ugc/795366624645705477/22A647A3F07FF66F911E5A0D72C9ED854252EAD3/");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 40vh;
+  width: 100vw;
+  filter: drop-shadow(0vw 1vw 1vw #2c2c2cd0);
+  margin-bottom: 10%;
+  /*https://developer.mozilla.org/en-US/docs/Web/CSS/filter-function/drop-shadow */
+}
+
+#backgroundimgsw p {
+  font-size: 2em;
+  color: white;
+}
+
 .title {
   font-size: 3em;
   background: -webkit-linear-gradient(#880e4f, #0000);
