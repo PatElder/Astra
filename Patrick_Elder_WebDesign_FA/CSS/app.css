@@ -1,5 +1,12 @@
+@media only screen and (max-width: 380px) {
+  .navcontainer {
+    font-size: smaller;
+  }
+}
+
 .navcontainer {
   display: flex;
+  flex-wrap: wrap;
   width: 100%;
   z-index: 1;
 }
@@ -11,16 +18,17 @@
 
 li > a {
   text-decoration: none;
-  color: whitesmoke;
+  color: #ffffff;
   align-self: center;
   z-index: 1;
+  font-size: 100%;
 }
 
 .stickytop {
   position: fixed;
   top: 0;
   left: 0;
-  z-index: 9999;
+  z-index: 1;
   width: 100%;
   height: auto;
   background-color: rgba(0, 0, 0, 0.842);
@@ -39,6 +47,8 @@ a > img {
   justify-content: center;
   align-items: center;
   align-content: center;
+  text-align: center;
+  margin-bottom: 10%;
 }
 
 .centered-flex-container > * {
@@ -49,16 +59,24 @@ a > img {
 footer {
   position: fixed;
   bottom: 0;
-  color: whitesmoke;
+  color: #ffffff;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 2fr;
+  grid-template-columns: 2fr 2fr;
+
   justify-items: center;
   width: 100%;
-  background-color: #333;
+  background-color: #212121;
+  text-align: center;
 }
 
 footer > ul {
-  margin-left: 5%;
   justify-self: flex-end;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  margin-left: 5%;
+}
+
+audio {
+  width: 90%;
+  height: 4vh;
 }

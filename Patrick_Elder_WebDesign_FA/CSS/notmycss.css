@@ -1,3 +1,10 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+
+html {
+  font-family: "Roboto", sans-serif;
+  color: #000;
+}
+
 /* https://stackoverflow.com/questions/18772154/white-space-at-top-of-page */
 * {
   margin: 0;
@@ -5,8 +12,6 @@
   border: 0;
   outline: 0;
   font-size: 100%;
-  vertical-align: baseline;
-  background: transparent;
 }
 
 #backgroundimg {
@@ -15,8 +20,8 @@
   background-size: cover;
   height: 40vh;
   width: 100vw;
-  filter: drop-shadow(0vw 1vw 1vw #dd44bc8f);
-  margin-bottom: 1em;
+  filter: drop-shadow(0vw 1vw 1vw #880e4f);
+  margin-bottom: 10%;
   /*https://developer.mozilla.org/en-US/docs/Web/CSS/filter-function/drop-shadow */
 }
 
@@ -26,7 +31,7 @@
 
 .title {
   font-size: 3em;
-  background: -webkit-linear-gradient(purple, black);
+  background: -webkit-linear-gradient(#880e4f, #0000);
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
   background-clip: text;
