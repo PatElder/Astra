@@ -51,7 +51,7 @@ html {
   background-size: cover;
   height: 40vh;
   width: 100vw;
-  filter: drop-shadow(0vw 1vw 1vw #2c2c2cd0);
+  filter: drop-shadow(0vw 1vw 1vw #df00ffd1);
   margin-bottom: 10%;
   /*https://developer.mozilla.org/en-US/docs/Web/CSS/filter-function/drop-shadow */
 }
