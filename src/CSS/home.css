@@ -1,11 +1,30 @@
-div > img {
-  width: auto;
-  height: auto;
-}
-div {
-  display: ;
-  width: 40%;
-  height: 40%;
+@media only screen and (max-width: 375px) {
+  .flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch;
+    align-content: stretch;
+    padding-top: 4vh;
+  }
 
-  margin: 0 auto;
+  #backgroundimg {
+    background-image: url("https://creativetacos.com/wp-content/uploads/2019/02/Lazeez-Watercolor-Textures-4K-UHD-Backgrounds2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40vh;
+    width: 100vw;
+    filter: drop-shadow(0vw 1vw 1vw #dd44bc8f);
+    /*https://developer.mozilla.org/en-US/docs/Web/CSS/filter-function/drop-shadow */
+  }
+  .text-block {
+    position: absolute;
+    color: black;
+    font-size: 1em;
+  }
+
+  .text-block > h2 {
+    font-size: 2em;
+  }
 }

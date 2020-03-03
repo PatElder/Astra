@@ -2,6 +2,7 @@ import React from "react";
 import "./CSS/App.css";
 import "./CSS/materialize.css";
 import LongMenu from "./Components/menu";
+import AppFooter from "./Components/footer";
 
 function App() {
   return (
@@ -11,7 +12,9 @@ function App() {
       </header>
       <body></body>
 
-      <footer></footer>
+      <footer>
+        <AppFooter />
+      </footer>
     </div>
   );
 }

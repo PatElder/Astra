@@ -1,0 +1,94 @@
+#bigcontent{
+  display: none;
+}
+
+.navcontainer {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  z-index: 1;
+}
+.navcontainer > li {
+  flex: 1;
+  list-style: none;
+}
+li > a {
+  text-decoration: none;
+  color: #ffffff;
+  align-self: center;
+  z-index: 1;
+  font-size: 100%;
+}
+li > a:hover {
+  opacity: 0.6;
+}
+.stickytop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  width: 100%;
+  height: auto;
+  background-color: rgba(0, 0, 0, 0.842);
+}
+a > img {
+  height: 2em;
+  width: auto;
+  z-index: 1;
+}
+.centered-flex-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+}
+.centered-flex-container > * {
+  flex: 1;
+}
+footer {
+  position: fixed;
+  bottom: 0;
+  color: #ffffff;
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+  justify-items: center;
+  width: 100%;
+  background-color: #212121;
+  text-align: center;
+  opacity: 0.8;
+}
+footer > ul {
+  margin-top: 5%;
+  margin-bottom: 5%;
+  margin-left: 5%;
+}
+audio {
+  width: 50%;
+  height: 4vh;
+}
+#audiodiv{
+  height:100px;
+}
+
+@media only screen and (min-width: 1400px) {
+  footer {
+    position: relative;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  #bigcontent{
+      display: flex;
+      background-image: linear-gradient(purple, black);
+      color: whitesmoke;
+ }
+}
+
+@media only screen and (max-width: 380px) {
+  .navcontainer {
+      font-size: smaller;
+ }
+}

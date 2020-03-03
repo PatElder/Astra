@@ -5169,7 +5169,7 @@ small {
   border: none;
   border-radius: 2px;
   display: inline-block;
-  height: 36px;
+  height: 2em;
   line-height: 36px;
   padding: 0 16px;
   text-transform: uppercase;

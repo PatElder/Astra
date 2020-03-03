@@ -1,8 +1,15 @@
+@media only screen and (max-width: 1024px) {
+  a > img {
+    width: 10vh;
+    height: auto;
+  }
+}
 /* Style the navigation menu */
 .topnav {
   overflow: hidden;
   background-color: #333;
   position: relative;
+  z-index: 1;
 }
 
 /* Hide the links inside the navigation menu (except for logo/home) */
@@ -15,7 +22,7 @@
   color: white;
   padding: auto;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 1em;
   display: block;
 }
 
@@ -31,7 +38,7 @@
 }
 /* Add a grey background color on mouse-over */
 .topnav a:hover {
-  background-color: black;
+  background-color: rgba(0, 0, 0, 0.425);
   color: white;
 }
 
@@ -39,9 +46,11 @@
 .active {
   background-color: black;
   color: white;
+  height: auto;
 }
 
-a > img {
-  width: 15%;
-  height: auto;
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
